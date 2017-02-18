@@ -14,7 +14,8 @@
     "build": "npm run cleanup && npm install",
     "quality" : "jshint --reporter=node_modules/jshint-html-reporter/reporter.js *.js > jshint-report.html",
     "package": "rm -f sample-lambda*.zip && zip -qyr sample-lambda-$npm_package_version.zip . -x@.lambdaignore",
-    "all": "npm run cleanup && npm install && npm run quality && npm run cover"
+    "check_coverage": "istanbul check-coverage --statements 90 --branches 90",
+    "all": "npm run cleanup && npm install && npm run quality && npm run cover && npm run check_coverage"
   },
   "dependencies": {
   },

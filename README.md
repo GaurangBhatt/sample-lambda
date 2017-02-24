@@ -13,4 +13,4 @@ Uses BeamLineJS for building, testing and deploying sample lambda function.
   * run tests
 
 dafadsadsfad
-adfa
+adfaadfadfa

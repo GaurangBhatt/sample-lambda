@@ -15,6 +15,6 @@ Uses BeamLineJS for building, testing and deploying sample lambda function.
   * run tests
 dafdfadfaafa
 dafadsadsfad
-adfaadfadfa
+adfaadfadfaafdsfa
 adfadfa
 testing PR branch

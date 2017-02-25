@@ -13,8 +13,8 @@ Uses BeamLineJS for building, testing and deploying sample lambda function.
   * run code coverage
   * run unit testsdaf
   * run tests
-dafdf
+dafdfadfaafa
 dafadsadsfad
-adfaadfadfa
+adfaadfadfaafdsfa
 adfadfa
 testing PR branch

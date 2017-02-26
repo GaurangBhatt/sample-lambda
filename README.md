@@ -6,7 +6,7 @@ Uses BeamLineJS for building, testing and deploying sample lambda function.
 # Pipeline stages
 * Setup build environment
 * Clone GitHub repository
-* Run NPM tasks
+* Run NPM tasksfadsfaf
   * install dependenciesadfadfd
   dafadfddafds
   adfaafdfasdfadfsafdsfa

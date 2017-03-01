@@ -1,15 +1,15 @@
 # sample-lambda
 Sample Lambda project used for testing the pipeline
 
-Uses BeamLineJS for building, testing and deploying sample lambda function.
-
+Uses BeamLineJS for building, testing and deploying sample lambda function.adfadsfadsdafadsf
+afdsfdf
 # Pipeline stagesadfdsf
 * Setup build environment
 * Clone GitHub repository
 * Run NPM tasksfadsfafadfasfadfadsf
   * install dependenciesadfadfd
   dafadfddafds
-  adfaafdfasdfadfsafdsfa
+  adfaafdfasdfadfsafdsfaadsfads
   * run code coverage
   * run unit testsdafdaf
   * run testsadfad
@@ -18,13 +18,13 @@ dafadsadsfadadfadsf
 adfaadfadfaafdsfa
 adfadfaafdfafadfafadsf
 testing PR branch
-dafadsfdasfadsfa
+dafadsfdasfdafdfadsadsfa
 testing fork and development linedaf
 adfadfads
 adfadsfafadsf
 adfads
 adfafas
-adsfsdfaf
+adsfsdfafadfadfdas
 Testing West Region
 ad
-adfadsf
+dafas

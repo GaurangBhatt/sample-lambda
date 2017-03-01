@@ -1,0 +1,35 @@
+- beamline :
+  - default :
+    - slack : &slack_default
+        channel_name : "#serverless-delivery"
+        slack_user : "pipeline-bot"
+        icon_emoji : "ghost"
+        webhook_uri : "T45NDKME3/B454PF3LM/eVMdzfOIGKy1b4LQQuyTYkmP"
+  - fork :
+     - enabled : false
+     - slack :
+        channel_name : "#serverless-fork"
+        slack_user : "pipeline-fork-bot"
+        icon_emoji : "ghost"
+        webhook_uri : "T45NDKME3/B4C93V6GP/ZgyJVvY9gb5PnXp94RWdFMLw"
+  - development :
+     - enabled : false
+     - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
+        #channel_name : ""
+        #slack_user : ""
+        #icon_emoji : ""
+        #webhook_uri : ""
+  - staging :
+     - enabled : false
+     - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
+        #channel_name : ""
+        #slack_user : ""
+        #icon_emoji : ""
+        #webhook_uri : ""
+  - production :
+     - enabled : false
+     - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
+        #channel_name : ""
+        #slack_user : ""
+        #icon_emoji : ""
+        #webhook_uri : ""

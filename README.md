@@ -9,7 +9,7 @@ afdsfdf
 * Run NPM tasksfadsfafadfasfadfadsf
   * install dependenciesadfadfd
   dafadfddafds
-  adfaafdfasdfadfsafdsfa
+  adfaafdfasdfadfsafdsfaadsfads
   * run code coverage
   * run unit testsdafdaf
   * run testsadfad

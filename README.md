@@ -1,5 +1,5 @@
 # sample-lambda
-Sample Lambda project used for testing the pipeline
+Sample Lambda project used for testing the pipelineadf
 
 Uses BeamLineJS for building, testing and deploying sample lambda function.adfadsfadsdafadsf
 afdsfdf

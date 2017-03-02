@@ -3,7 +3,7 @@ Sample Lambda project used for testing the pipelineadf
 
 Uses BeamLineJS for building, testing and deploying sample lambda functidafon.adfadsfadsdafadsf
 afdsfdf
-# Pipeline stagesadfdsfadfsadsf
+# Pipeline stagesadfdsfadfsadsfadfafa
 * Setup build environment
 * Clone GitHub repository
 * Run NPM tasksfadsfafadfasfadfadsfadfadadff

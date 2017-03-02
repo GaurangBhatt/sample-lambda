@@ -7,7 +7,7 @@ afdsfdf
 * Setup build environment
 * Clone GitHub repository
 * Run NPM tasksfadsfafadfasfadfadsfadfadf
-  * install dependenciesadfadfd
+  * install dependenciesadfadfdadfd
   dafadfddafds
   adfaafdfasdfadfsafdsfaadsfads
   * run code coverage

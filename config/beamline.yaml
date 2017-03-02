@@ -6,7 +6,7 @@
         icon_emoji : "ghost"
         webhook_uri : "T45NDKME3/B454PF3LM/eVMdzfOIGKy1b4LQQuyTYkmP"
   - fork :
-     - enabled : false
+     - enabled : true
      - slack :
         channel_name : "#serverless-fork"
         slack_user : "pipeline-fork-bot"
@@ -28,8 +28,8 @@
         #webhook_uri : ""
   - production :
      - enabled : false
-     - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
-        #channel_name : ""
-        #slack_user : ""
-        #icon_emoji : ""
-        #webhook_uri : ""
+     - slack :
+        channel_name : "#serverless-prod"
+        slack_user : "pipeline-prod-bot"
+        icon_emoji : "ghost"
+        webhook_uri : "T45NDKME3/B4CJ1H38V/F63A8M3QtkTyOQ2e16trB92M"

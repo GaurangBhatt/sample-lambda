@@ -6,8 +6,8 @@ afdsfdf
 # Pipeline stagesadfdsf
 * Setup build environment
 * Clone GitHub repository
-* Run NPM tasksfadsfafadfasfadfadsf
-  * install dependenciesadfadfd
+* Run NPM tasksfadsfafadfasfadfadsfadfadf
+  * install dependenciesadfadfdadfd
   dafadfddafds
   adfaafdfasdfadfsafdsfaadsfads
   * run code coverage

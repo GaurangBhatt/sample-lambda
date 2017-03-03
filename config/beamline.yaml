@@ -5,6 +5,29 @@
         slack_user : "pipeline-bot"
         icon_emoji : "ghost"
         webhook_uri : "T45NDKME3/B454PF3LM/eVMdzfOIGKy1b4LQQuyTYkmP"
+    - repository :
+        pull_url : "https://api.github.com/repos/GaurangBhatt/sample-lambda/pulls"
+        git_token : "f03f2dfb9bb33b28f7a8f732ebd5ee45964668f50b8d982de6bbbfba3e736be1e848cee3b71020713c38218e33d2eecd" # Encrypt this tonight
+    - us_east_1 : &us_east_1
+      - region_name : "us-east-1"
+      - S3 :
+         bucket_name : "beamline-bucket-us-east-1"
+      - function_config :
+         iam_role_arn : "arn:aws:iam::686218048045:role/lambda_role"
+         handler : "index.handler"
+         description : "Sample lambda function"
+         memory_size : 128
+         timeout : 30
+    - us_west_2 : &us_west_2
+      - region_name : "us-west-2"
+      - S3 :
+         bucket_name : "beamline-bucket-us-west-2"
+      - function_config :
+         iam_role_arn : "arn:aws:iam::686218048045:role/lambda_role"
+         handler : "index.handler"
+         description : "Sample lambda function"
+         memory_size : 128
+         timeout : 30
   - fork :
      - enabled : true
      - slack :
@@ -12,24 +35,107 @@
         slack_user : "pipeline-fork-bot"
         icon_emoji : "ghost"
         webhook_uri : "T45NDKME3/B4C93V6GP/ZgyJVvY9gb5PnXp94RWdFMLw"
+     - us_east_1 : *us_east_1 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-east-1"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+     - us_west_2 : *us_west_2 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-west-2"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+
   - development :
-     - enabled : false
+     - enabled : true
      - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
         #channel_name : ""
         #slack_user : ""
         #icon_emoji : ""
         #webhook_uri : ""
+     - us_east_1 : *us_east_1 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-east-1"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+     - us_west_2 : *us_west_2 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-west-2"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+
   - staging :
-     - enabled : false
-     - slack : *slack_default #Remove this and enable below commented code to override default slack configurations
+     - enabled : true
+     - slack : *slack_default #Remove this and uncomment below commented code to override default slack configurations
         #channel_name : ""
         #slack_user : ""
         #icon_emoji : ""
         #webhook_uri : ""
+     - us_east_1 : *us_east_1 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-east-1"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+     - us_west_2 : *us_west_2 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-west-2"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+
   - production :
-     - enabled : false
+     - enabled : true
      - slack :
         channel_name : "#serverless-prod"
         slack_user : "pipeline-prod-bot"
         icon_emoji : "ghost"
         webhook_uri : "T45NDKME3/B4CJ1H38V/F63A8M3QtkTyOQ2e16trB92M"
+     - us_east_1 : *us_east_1 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-east-1"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""
+     - us_west_2 : *us_west_2 #Remove this and enable below commented code to override default configurations
+        #- region_name : "us-west-2"
+        #- S3 :
+         #bucket_name : ""
+        #- function_config :
+           #iam_role_arn : ""
+           #handler : ""
+           #description : ""
+           #memory_size : ""
+           #timeout : ""

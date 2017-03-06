@@ -11,9 +11,9 @@
     - us_east_1 : &us_east_1
       - region_name : "us-east-1"
       - S3 :
-         bucket_name : "beamline-bucket-us-east-1"
+         bucket_name : "test-beamline-us-east-1"
       - function_config :
-         iam_role_arn : "arn:aws:iam::686218048045:role/lambda_role"
+         iam_role_arn : "arn:aws:iam::686218048045:role/test-beamlineJS"
          handler : "index.handler"
          description : "Sample lambda function"
          memory_size : 128
@@ -21,9 +21,9 @@
     - us_west_2 : &us_west_2
       - region_name : "us-west-2"
       - S3 :
-         bucket_name : "beamline-bucket-us-west-2"
+         bucket_name : "test-beamline-us-west-2"
       - function_config :
-         iam_role_arn : "arn:aws:iam::686218048045:role/lambda_role"
+         iam_role_arn : "arn:aws:iam::686218048045:role/test-beamlineJS"
          handler : "index.handler"
          description : "Sample lambda function"
          memory_size : 128

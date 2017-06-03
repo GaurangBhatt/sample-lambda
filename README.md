@@ -9,3 +9,4 @@ Uses BeamLineJS for building, testing and deploying sample lambda functidon.
 * Run NPM tasks
 * 
 Testing
+Demo

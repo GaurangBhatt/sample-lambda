@@ -7,7 +7,7 @@
         webhook_uri : "T45NDKME3/B454PF3LM/eVMdzfOIGKy1b4LQQuyTYkmP"
     - repository :
         pull_url : "https://api.github.com/repos/GaurangBhatt/sample-lambda/pulls"
-        git_token : "f03f2dfb9bb33b28f7a8f732ebd5ee45964668f50b8d982de6bbbfba3e736be1e848cee3b71020713c38218e33d2eecd" # Encrypt this tonight
+        git_token : "370d28a24b1c9818d40bfe01956f578632a3c1f848e0effcfadade124e026e5e811e90f84b83e4b75e66650d276827a5" # Encrypt this tonight
     - us_east_1 : &us_east_1
       - region_name : "us-east-1"
       - S3 :
